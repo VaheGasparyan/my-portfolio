@@ -1,0 +1,1 @@
+export const skills = ['HTML', 'Css', 'Javascript', 'React js', 'Redux / Redux Toolkit', 'Typescript', 'Git', 'Material UI', 'Chakra'];
