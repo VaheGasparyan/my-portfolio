@@ -37,6 +37,10 @@
     transition: .3s;
 }
 
+.header .navbar a.active {
+    color: var(--main-color);
+}
+
 .header .navbar a:first-child {
     margin-left: 0;
 }
