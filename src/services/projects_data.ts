@@ -16,13 +16,13 @@ export const projects_data = [
         imgSrc: todoList,
         name: 'Todo List',
         id: uuid(),
-        tools: ['HTML', 'Css', 'React js', 'Typescript', 'MUI']
+        tools: ['HTML, ', 'Css, ', 'React js, ', 'Typescript, ', 'MUI']
     },
 
     {
         imgSrc: memoryGame,
         name: 'Memory game',
         id: uuid(),
-        tools: ['HTML', 'Css', 'Javascript']
+        tools: ['HTML, ', 'Css, ', 'Javascript']
     }
 ]
