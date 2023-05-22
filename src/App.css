@@ -56,3 +56,40 @@ span {
     text-align: center;
     font-size: 4.5rem;
 }
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .main .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .main .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main .header #menu-icon {
+        display: block;
+    }
+
+    .main .header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    }
+}

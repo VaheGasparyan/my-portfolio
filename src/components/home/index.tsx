@@ -1,10 +1,11 @@
-import homeImg from 'images/programmer-person.svg';
+import {forwardRef} from "react";
 
+import homeImg from 'images/programmer-person.svg';
 import './home.css';
 
-const Home = () => {
+const Home = forwardRef<HTMLDivElement>((props, ref) => {
     return (
-        <section className='home' id='home'>
+        <section ref={ref} className='home' id='home'>
             <div className="home-content">
                 <h3>Hello, It's Me</h3>
                 <h1>Vahe Gasparyan</h1>
@@ -24,6 +25,6 @@ const Home = () => {
             </div>
         </section>
     )
-};
+});
 
 export default Home;

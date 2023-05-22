@@ -1,3 +1,7 @@
+.projects {
+    background: var(--second-bg-color);
+}
+
 .projects h2 {
     margin-bottom: 4rem;
 }
