@@ -1,10 +1,11 @@
-import aboutImg from 'images/about-us.svg';
+import {forwardRef} from "react";
 
+import aboutImg from 'images/about-us.svg';
 import './about.css';
 
-const About = () => {
+const About = forwardRef<HTMLDivElement>((props, ref) => {
     return (
-        <section className='about' id='about'>
+        <section ref={ref} className='about' id='about'>
             <div className="about-img">
                 <img src={aboutImg} alt="about-img"/>
             </div>
@@ -17,6 +18,6 @@ const About = () => {
             </div>
         </section>
     )
-};
+});
 
 export default About;

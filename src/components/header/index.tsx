@@ -8,10 +8,10 @@ const Header = () => {
             <i className='bx bx-menu' id='menu-icon'></i>
 
             <nav className="navbar">
-                <a href="#home" className='active'>Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
+                <a href="#home" className='active headerHome'>Home</a>
+                <a href="#about" className='headerAbout'>About</a>
+                <a href="#skills" className='headerSkills'>Skills</a>
+                <a href="#projects" className='headerProjects'>Projects</a>
             </nav>
         </header>
     )
