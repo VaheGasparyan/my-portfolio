@@ -13,7 +13,7 @@ const Skills = () => {
         <i className='bx bx-book-open'></i>, <i className='bx bx-book-bookmark'></i>];
 
     return (
-        <section className='skills'>
+        <section className='skills' id='skills'>
             <h2 className="heading">My <span>Skills</span></h2>
 
             <div className="skills-content">
