@@ -137,4 +137,44 @@ span {
     .main .skills .skills-content .skills-img img {
         width: 70vw;
     }
+
+    .main .projects .projects-container {
+        grid-template-columns: repeat(1, .8fr);
+        justify-content: center;
+    }
+
+    .main .projects .projects-container .project-box {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main .skills .skills-content .my-skills {
+        width: 375px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 365px) {
+    .main .home h1 {
+        font-size: 2.6rem;
+    }
+    .main .home .home-img img {
+        width: 90vw;
+    }
+
+    .main .about .about-img img {
+        width: 90vw;
+    }
+    
+    .main .skills .skills-content .my-skills {
+        width: 267px;
+        height: 360px;
+    }
 }

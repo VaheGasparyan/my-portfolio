@@ -16,7 +16,7 @@ const Skills = forwardRef<HTMLDivElement>((props, ref) => {
 
     return (
         <section ref={ref} className='skills' id='skills'>
-            <h2 className="heading">My <span>Skills</span></h2>
+            <h2 className="heading skills_heading">My <span>Skills</span></h2>
 
             <div className="skills-content">
                 <div className="skills-img">
