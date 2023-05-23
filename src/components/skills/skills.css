@@ -10,6 +10,19 @@
 
 .skills .skills-content .skills-img img {
     width: 35vw;
+    animation: floatSkillsImage 2.5s ease-in-out infinite;
+}
+
+@keyframes floatSkillsImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-3.5rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .skills .skills-content .my-skills {
