@@ -1,12 +1,21 @@
 import ScrollReveal from "scrollreveal";
 
 export const scrollReveal = () => {
-    ScrollReveal().reveal('.home-content', {duration: 1500, distance: '-100px', easing: 'ease',});
-    ScrollReveal().reveal('.home-img', {distance: '100px', duration: 1500, easing: 'ease'});
-    ScrollReveal().reveal('.about-img', {duration: 1500, distance: '-100px', easing: 'ease'});
-    ScrollReveal().reveal('.about-content', {duration: 1500, distance: '100px', easing: 'ease'});
-    ScrollReveal().reveal('.skills_heading', {duration: 1500, distance: '-100px', easing: 'ease'});
-    ScrollReveal().reveal('.skills-content', {duration: 1500, distance: '100px', easing: 'ease'});
-    ScrollReveal().reveal('.projects_heading', {duration: 1500, distance: '-100px', easing: 'ease'});
-    ScrollReveal().reveal('.projects-container', {duration: 1500, distance: '100px', easing: 'ease'});
+    ScrollReveal({
+        reset: true,
+        distance: '12px',
+        duration: 1000,
+        delay: 200
+    })
+    ScrollReveal().reveal('.home-content', {origin: 'top'});
+    ScrollReveal().reveal('.home-content h1', {origin: 'right'});
+    ScrollReveal().reveal('.home-content p', {origin: 'left'});
+    ScrollReveal().reveal('.home-img', {origin: 'top'});
+    ScrollReveal().reveal('.about-img', {origin: 'left'});
+    ScrollReveal().reveal('.about-content', {origin: 'right'});
+    ScrollReveal().reveal('.skills_heading', {origin: 'top'});
+    ScrollReveal().reveal('.skills-content .skills-img', {origin: 'left'});
+    ScrollReveal().reveal('.skills-content .my-skills', {origin: 'right'});
+    ScrollReveal().reveal('.projects_heading', {origin: 'top'});
+    ScrollReveal().reveal('.projects-container', {origin: 'top'});
 }
