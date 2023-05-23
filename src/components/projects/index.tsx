@@ -8,7 +8,7 @@ import './project.css';
 const Projects = forwardRef<HTMLDivElement>((props, ref) => {
     return (
         <section ref={ref} className='projects' id='projects'>
-            <h2 className="heading">Latest <span>Project</span></h2>
+            <h2 className="heading projects_heading">Latest <span>Project</span></h2>
 
             <div className="projects-container">
                 {projects_data.map(project => {
