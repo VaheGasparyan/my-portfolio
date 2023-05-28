@@ -18,7 +18,7 @@ const Projects = forwardRef<HTMLDivElement>((props, ref) => {
                             <div className="project-layer">
                                 <h4>{project.name}</h4>
                                 <p>{project.tools}</p>
-                                <a href="#"><i className='bx bx-link-external'></i></a>
+                                <a href={project.projectLink} target='_blank'><i className='bx bx-link-external'></i></a>
                             </div>
                         </div>
                     )

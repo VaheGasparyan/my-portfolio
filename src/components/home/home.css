@@ -21,6 +21,7 @@
 
 .home .home-content p {
     font-size: 1.4rem;
+    margin-bottom: 2rem;
 }
 
 .home .home-content .social-media a {
@@ -36,6 +37,50 @@
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
+}
+
+.home .home-content .social-media .gmail {
+    position: relative;
+}
+
+.home .home-content .social-media .gmail_span {
+    position: absolute;
+    background: var(--main-color);
+    color: #000;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    width: 8rem;
+    top: -70%;
+    font-weight: 600;
+    transition: .5s ease;
+    transform: scale(0);
+}
+
+.home .home-content .social-media .git {
+    position: relative;
+}
+
+.home .home-content .social-media .git_span {
+    position: absolute;
+    background: var(--main-color);
+    color: #000;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    width: 8rem;
+    top: -70%;
+    font-weight: 600;
+    transition: .5s ease;
+    transform: scale(0);
+}
+
+.home .home-content .social-media .git:hover .git_span  {
+    transform: scale(1);
+}
+
+.home .home-content .social-media .gmail:hover .gmail_span  {
+    transform: scale(1);
 }
 
 .home .home-content .social-media a:hover {

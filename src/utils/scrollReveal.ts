@@ -4,7 +4,7 @@ export const scrollReveal = () => {
     ScrollReveal({
         reset: true,
         distance: '12px',
-        duration: 1000,
+        duration: 1500,
         delay: 200
     })
     ScrollReveal().reveal('.home-content', {origin: 'top'});
