@@ -1,6 +1,6 @@
 import {useEffect, useRef} from "react";
 
-import {checkScrollOffset} from "../utils/checkScrollOffset";
+import {checkScrollOffset} from "utils/checkScrollOffset";
 
 import Header from "components/header";
 import Home from "components/home";

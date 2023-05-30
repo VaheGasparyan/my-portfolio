@@ -1,5 +1,4 @@
 import {forwardRef} from "react";
-import ScrollReveal from "scrollreveal";
 
 import aboutImg from 'images/about-us.svg';
 import './about.css';

@@ -4,13 +4,9 @@ export const checkScrollOffset = (home: HTMLDivElement, about: HTMLDivElement, s
     const skillsHeader = document.querySelector('.headerSkills');
     const projectsHeader = document.querySelector('.headerProjects');
     const header = document.querySelector('.header');
-    const navbar = document.querySelector('.header .navbar');
-    const menuIcon = document.querySelector('.header #menu-icon');
 
     window.addEventListener('scroll', () => {
         const top = window.scrollY;
-
-        console.log('asfdjk')
 
         homeHeader!.classList.toggle('active', top >= home.offsetTop - 150 && top < home.offsetHeight + home.offsetTop);
         aboutHeader!.classList.toggle('active', top >= about.offsetTop - 150 && top < about.offsetHeight + about.offsetTop);
