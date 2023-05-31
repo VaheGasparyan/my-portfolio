@@ -8,7 +8,7 @@ export const checkScrollOffset = (home: HTMLDivElement, about: HTMLDivElement, s
     window.addEventListener('scroll', () => {
         const top = window.scrollY;
 
-        homeHeader!.classList.toggle('active', top >= home.offsetTop - 150 && top < home.offsetHeight + home.offsetTop - 120);
+        homeHeader!.classList.toggle('active', top >= home.offsetTop - 150 && top < home.offsetHeight + home.offsetTop - 130);
         aboutHeader!.classList.toggle('active', top >= about.offsetTop - 150 && top < about.offsetHeight + about.offsetTop - 125);
         skillsHeader!.classList.toggle('active', top >= skills.offsetTop - 150 && top < skills.offsetHeight + skills.offsetTop - 120);
         projectsHeader!.classList.toggle('active', top >= projects.offsetTop - 150 && top < projects.offsetHeight + projects.offsetTop - 120);
