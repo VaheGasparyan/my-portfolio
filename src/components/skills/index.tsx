@@ -10,7 +10,7 @@ import './skills.css';
 const Skills = forwardRef<HTMLDivElement>((props, ref) => {
     const icons = [<i className='bx bxl-html5'></i>, <i className='bx bxl-css3'></i>,
         <i className='bx bxl-javascript'></i>, <i className='bx bxl-react'></i>, <i className='bx bxl-redux'></i>,
-        <i className='bx bxl-typescript'></i>, <i className='bx bxl-git'></i>, <i className='bx bxl-tailwind-css'></i>,
+        <i className='bx bxl-typescript'></i>, <i className='bx bxl-git'></i>, <i className='bx bx-shape-square'></i>, <i className='bx bxl-tailwind-css'></i>,
         <i className='bx bxl-tailwind-css'></i>, <i className='bx bx-book-heart'></i>,
         <i className='bx bx-book-open'></i>, <i className='bx bx-book-bookmark'></i>];
 

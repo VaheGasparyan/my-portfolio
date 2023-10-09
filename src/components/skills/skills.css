@@ -43,11 +43,15 @@
     overflow: hidden;
     position: relative;
     margin-left: 1.5rem;
+    align-items: center;
 }
 
 .skills .skills-content .my-skills p {
     font-weight: 600;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .skills .skills-content .my-skills .skill:nth-child(1)::before {
